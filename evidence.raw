@@ -1,0 +1,5 @@
+CONFIDENTIAL COMPANY DATA - SYSTEM LOGS
+User: Admin | Action: Login | Status: Success
+==================================================
+FLAG{PASSWORD_EXFILTRATED_SECRET_KEY_9988}
+DELETED_FILE_MARKER: Secret plan text here.
