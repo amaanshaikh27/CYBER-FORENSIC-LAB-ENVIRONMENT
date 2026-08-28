@@ -1,13 +1,13 @@
 # Cyber Forensic Operations Center & DFIR Platform
 
-An enterprise-grade, web-based digital forensics and incident response (DFIR) laboratory environment built with Flask and SQLAlchemy. Designed to simulate and manage full-lifecycle security incidents, the platform features cryptographic evidence integrity verification, automated threat intelligence IOC scanning, and comprehensive case dossier management.
+An enterprise-grade, web-based digital forensics and incident response (DFIR) laboratory environment built with Flask and SQLAlchemy. Designed to simulate and manage full-lifecycle security incidents, the platform features cryptographic evidence integrity verification, automated threat intelligence IOC scanning, and comprehensive case dossier 
 
 ## Key Architecture & Technical Capabilities
 
 * **Evidence Vault & Cryptography**: Securely ingests digital artifacts, automatically computing SHA-256 cryptographic checksums to enforce tamper-evident chain of custody tracking.
 * **Threat Intelligence Engine**: Automatically scans ingested evidence against simulated Indicators of Compromise (IOCs) to instantly categorize files as benign or malicious.
 * **Automated Forensic Reporting**: Generates real-time, print-ready forensic incident reports and case dockets containing immutable audit logs and checksum manifests.
-* **Modular Codebase**: Engineered following clean architecture principles, separating routing (`app.py`), relational database schemas (`models.py`), and persistence layers (`database.py`).
+* **Modular Codebase**: Engineered following clean architecture principles, separating routing (`app.py`), relational database schemas (`models.py`), and persistence layers (`database.py`)
 
 ## Installation & Setup
 
